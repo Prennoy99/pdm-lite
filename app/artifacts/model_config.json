@@ -1,0 +1,12 @@
+{
+  "class_names": [
+    "normal",
+    "inner_race",
+    "ball",
+    "outer_race"
+  ],
+  "input_name": "signal",
+  "output_name": "logits",
+  "window_size": 1024,
+  "n_classes": 4
+}
