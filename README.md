@@ -2,7 +2,9 @@
 
 > A production-style predictive maintenance API that classifies rolling-element
 > bearing faults from raw vibration signals.  
-> Built on the CWRU dataset · 1D-CNN · FastAPI · ONNX Runtime · Google Cloud Run free tier.
+> Built on the CWRU dataset · 1D-CNN · FastAPI · ONNX Runtime · Render free tier.
+>
+> **Live demo:** https://pdm-lite.onrender.com/docs
 
 ![CI](https://github.com/Prennoy99/pdm-lite/actions/workflows/ci.yml/badge.svg)
 
@@ -193,7 +195,11 @@ Image is tagged `:latest` and `:<git-sha>` for reproducible deploys.
 
 ## Cloud Deployment
 
-Deploy to Cloud Run (requires GCP project with billing enabled — Always Free tier applies):
+**Live on Render (free tier):** https://pdm-lite.onrender.com/docs
+
+> Note: free tier spins down after 15 min inactivity — first request after idle takes ~30 s to cold-start.
+
+To deploy to GCP Cloud Run instead (requires billing enabled — Always Free tier applies):
 
 ```bash
 export GCP_PROJECT_ID="your-gcp-project-id"
