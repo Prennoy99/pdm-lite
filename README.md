@@ -89,7 +89,7 @@ Test set: **923 windows** held out before training.
 
 ## Local Setup
 
-**Prerequisites:** Python 3.11+, Git
+**Prerequisites:** Python 3.12+, Git
 
 ```bash
 git clone https://github.com/Prennoy99/pdm-lite.git
